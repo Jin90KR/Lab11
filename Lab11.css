@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.game{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.paper, .rock, .scissors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+i{
+    font-size: 5rem;
+}
+
