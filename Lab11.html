@@ -8,6 +8,13 @@
     </head>
 
     <body>
+
+        <div class="countbox" id="count_box">
+            <div class="count" id="count_number">0</div>
+            <!-- <p class="counttext" id="count_text">당신은 ?? 이겼습니다.</p> -->
+        
+        </div>
+
         <div class="game" id="handgame">
 
             <div class="hi_container">
@@ -16,19 +23,20 @@
 
             <div class="pick" id="pickgame">
 
-                <div class="scissors">
-                    <i class="fa-regular fa-hand-scissors fa-rotate-90"></i>
-                </div>
-
-                <div class="rock">
+                <div class="rock" id="btnrock">
                     <i class="fa-regular fa-hand-back-fist"></i>
                 </div>
 
-                <div class="paper">
+                <div class="scissors" id="btnscissors">
+                    <i class="fa-regular fa-hand-scissors fa-rotate-90"></i>
+                </div>
+
+                <div class="paper" id="btnpaper">
                     <i class="fa-regular fa-hand"></i>
                 </div>
 
-                <p class="mychose">my chose</p>
+                <p class="mychoice" id="my_choice">my choice</p>
+
             </div>
 
             <div class="fight" id="fightgame">
@@ -37,11 +45,14 @@
             </div>
 
             <div class="result" id="resultgame">
-                <p class="randomresult">This game is a Random!<br>Random</p>
+                <p class="randomresult" id="resulttext">This game is a Random!<br>Random</p>
             </div>
-
 
         </div>
 
+        
+
+
+        <script src="./Lab11.js"></script>
     </body>
 </html>
